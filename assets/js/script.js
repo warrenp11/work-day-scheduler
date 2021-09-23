@@ -2,37 +2,33 @@
 var todayDate = moment().format("dddd, MMMM Do YYYY");
 $("#currentDay").html(todayDate);
 
-// current time
-var timeNow = moment().hour();
 
+function timeTracker() {
+    //get current number of hours.
+    var timeNow = moment().hour();
 
-var timeTracker = function() {
-    // get current time in hours
-    var currentTime = timeNow;
+    // loop over time blocks
+    $(".time-block").each(function () {
+        var timeBlock = parseInt($(this).attr("id").split("hour")[1]);
 
-    // for each time block...
-    $("#time-block").each(function(){
-        
-        var timeBlock = $(this).attr("id");
-
-
-
-        //  check time and add color to time-block
-        if ('TIME' < timeNow) {
-            //past
+        // To check the time and add the classes for background indicators
+        if (timeBlock < timeNow) {
             $(this).removeClass("future");
             $(this).removeClass("present");
             $(this).addClass("past");
-        } else if ("TIME" === timeNow) {
-            // present
+        }
+        else if (timeBlock === timeNow) {
+            $(this).removeClass("past");
             $(this).removeClass("future");
             $(this).addClass("present");
-            $(this).removeClass("past");
-        } else {
-            // future
-            $(this).addClass("future");
+        }
+        else {
             $(this).removeClass("present");
             $(this).removeClass("past");
+            $(this).addClass("future");
+
         }
-    });
-};
+    })
+}
+
+timeTracker();
