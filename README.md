@@ -18,16 +18,23 @@ Base code was provided for the start of this project (initial "index.html" and "
 * All tasks are saved locally.
 
 ## Instructions
-1. Navigate to "Work Day Scheduler" by clicking one of the links in 'Websites' section below.
+1. Open the "Work Day Scheduler" by clicking the 'Deployed' link in the 'Deployed Application' section below.
 2. Click on the text-area (center-column) to add information (e.g., tasks or reminders).
 3. Click the *_blue_* 'Save' button (located on the right) to save your schedule.
 
-* If you refresh the page, all saved information should remain.
+* If you refresh the page, all saved information will remain.
 
 ## Installation
 No installation required (see Websites below).
 
 ## Screenshots
+Screenshot of the Work Day Scheduler application in use.
+
+![Screenshot of deployed app](./assets/images/screenshot.png "Screenshot of deployed Work Day Scheduler" )
+
+## Deployed Application
+* Deployed: https://warrenp11.github.io/work-day-scheduler/
+* GibHub Repository: https://github.com/warrenp11/work-day-scheduler
 
 ## Features
 * HTML
@@ -35,10 +42,6 @@ No installation required (see Websites below).
 * JavaScript
 * Bootstrap
 * jQuery
-
-## Websites
-* GibHub: https://github.com/warrenp11/work-day-scheduler
-* Deployed: https://warrenp11.github.io/work-day-scheduler/
 
 ## Acceptance Criteria
 * GIVEN I am using a daily planner to create a schedule
