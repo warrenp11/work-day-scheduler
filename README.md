@@ -10,7 +10,7 @@ Base code was provided for the start of this project (initial "index.html" and "
 * Work day schedule displays 1-hour time blocks, 8 AM - 6 PM.
 * Each time block has a text-area to enter tasks/information.
 * Each time block has a save button to save the text in that time block;
-    * Clicking the save button will save that time block's information ONLY
+    * Clicking the save button will save that time block's information **ONLY**
 * The work schedule is color-coded and dynamically changes depending on the current time:
     * Grey indicates past,
     * Red indicates present,
@@ -56,6 +56,7 @@ No installation required (see Websites below).
 * THEN the saved events persist
 
 ## Project Insight
+First and foremost, I received some help with the logic for this project. I wish the logic came to me like breathing, however, that wasn't the case. I could make sense of *WHAT I needed to do* but I admittedly struggled to make the code *DO what it needed to do*. Thankfully I was coached through the process and made sense of everything in the end. Ultimately, I'm not sure if this is the best way to do this -- in fact I'd say it's a safe bet that it isn't -- but I'm glad I made it work.
 
 ## Author
 Peter Warren
